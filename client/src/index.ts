@@ -1,15 +1,10 @@
-//import 'leaflet/dist/leaflet.css'
-//import * as L from 'leaflet'
 import './style.scss'
-import homesLink from './oslo-akershus.csv'
-import * as d3 from 'd3'
-import { interpolateInferno as colorScheme } from 'd3-scale-chromatic'
-import * as mapboxgl from 'mapbox-gl'
 import 'mapbox-gl/dist/mapbox-gl.css'
-//import { parse } from 'geojson'
+import homesLink from './oslo-akershus.csv'
+import { interpolateInferno as colorScheme } from 'd3-scale-chromatic'
+import * as d3 from 'd3'
+import * as mapboxgl from 'mapbox-gl'
 import * as turf from '@turf/turf'
-
-
 
 // This is just here to allow something similar to hmr to work in fuse-box v4
 if (window.loaded) {

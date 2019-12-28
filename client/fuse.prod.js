@@ -5,5 +5,5 @@ fusebox({
     entry: './src/index.ts',
     plugins: [
         pluginLink(/\.csv/, { useDefault: true })
-    ]
-}).runProd({ uglify: true })
+    ],
+}).runProd()
