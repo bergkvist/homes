@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "start": "node fuse.dev",
-    "build": "node fuse.prod"
+    "build": "rm -rf dist; node --max-old-space-size=4096 fuse.prod"
   },
   "dependencies": {
     "@turf/helpers": "^6.1.4",
