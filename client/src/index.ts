@@ -39,7 +39,7 @@ if (window.loaded) {
         'basemap': {
           type: 'raster',
           tiles: ['a', 'b', 'c']
-            .map(x => `http://${x}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}@2x.png`)
+            .map(x => `https://${x}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}@2x.png`)
         },
       },
       layers: [{
