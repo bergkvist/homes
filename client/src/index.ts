@@ -77,21 +77,19 @@ if (window.loaded) {
 
     console.log(geojson.features[0].properties)
 
-    map.on('load', () => {
-      map.addLayer({
-        type: 'fill-extrusion',
-        id: 'homes',
-        source: {
-          type: 'geojson',
-          data: geojson
-        },
-        paint: {
-          'fill-extrusion-color': ['get', 'color'],
-          'fill-extrusion-base': 0,
-          'fill-extrusion-height': ['get', 'height'],
-          'fill-extrusion-opacity': 0.7
-        }
-      })
+    map.addLayer({
+      type: 'fill-extrusion',
+      id: 'homes',
+      source: {
+        type: 'geojson',
+        data: geojson
+      },
+      paint: {
+        'fill-extrusion-color': ['get', 'color'],
+        'fill-extrusion-base': 0,
+        'fill-extrusion-height': ['get', 'height'],
+        'fill-extrusion-opacity': 0.7
+      }
     })
 
     map.on('click', 'homes', e => {
