@@ -1,0 +1,40 @@
+{
+  "name": "react-client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@turf/turf": "^5.1.6",
+    "@urbica/react-map-gl": "^1.13.0",
+    "d3": "^5.16.0",
+    "d3-scale-chromatic": "^1.5.0",
+    "mapbox-gl": "^1.9.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-query": "^1.2.9",
+    "react-scripts": "3.4.1"
+  },
+  "scripts": {
+    "start": "REACT_APP_MAPBOX_API_KEY='pk.eyJ1IjoidWJlcmRhdGEiLCJhIjoiY2poczJzeGt2MGl1bTNkcm1lcXVqMXRpMyJ9.9o2DrYg8C8UWmprj-tcVpQ' react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
