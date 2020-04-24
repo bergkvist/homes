@@ -18,7 +18,7 @@
   },
   "scripts": {
     "start": "REACT_APP_MAPBOX_API_KEY='pk.eyJ1IjoidWJlcmRhdGEiLCJhIjoiY2poczJzeGt2MGl1bTNkcm1lcXVqMXRpMyJ9.9o2DrYg8C8UWmprj-tcVpQ' react-scripts start",
-    "build": "react-scripts build",
+    "build": "REACT_APP_MAPBOX_API_KEY='pk.eyJ1IjoidWJlcmRhdGEiLCJhIjoiY2poczJzeGt2MGl1bTNkcm1lcXVqMXRpMyJ9.9o2DrYg8C8UWmprj-tcVpQ' react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
