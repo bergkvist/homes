@@ -20,7 +20,7 @@
     "mapbox-gl": "^1.6.1"
   },
   "devDependencies": {
-    "node-sass": "^4.13.0",
+    "node-sass": "^4.13.1",
     "tslib": "^1.10.0",
     "typescript": "^3.7.4"
   }
